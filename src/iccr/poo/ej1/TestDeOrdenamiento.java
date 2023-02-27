@@ -52,6 +52,13 @@ public class TestDeOrdenamiento {
         //diferenciar array list con listas enlazadas
         LinkedList<String> listaDeCiudades = new LinkedList<>();
         listaDeCiudades.add("Quito");
+        listaDeCiudades.addFirst("Cuenca");
+        listaDeCiudades.addLast("Guayaquil");
+        System.out.println(listaDeCiudades);
+        Collections.sort(listaDeCiudades);
+        System.out.println(listaDeCiudades);
+        
+        
     }
 
 }
